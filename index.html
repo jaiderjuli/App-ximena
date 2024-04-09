@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>¿Vas a ir este sábado al culto de jóvenes?</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="body">
-  <h1 class="body__title">¿Vas a ir este sábado al culto de jóvenes?</h1>
-  <img src="https://img.freepik.com/vector-premium/mujer-negra-anuncio-megafono_112255-4653.jpg" alt="Foto D My" class="body__img" />
+<body>
+  <h1>¿Vas a ir este sábado al culto de jóvenes?</h1>
+  <img src="https://img.freepik.com/vector-premium/mujer-negra-anuncio-megafono_112255-4653.jpg" alt="Foto D My" style="width: 200px; border-radius: 50%;">
   <br>
   <button id="yes">😉Si😉</button>
   <button id="no">😒No😒</button>
+  <br>
+  <input type="text" id="nombre" placeholder="Ingrese su nombre">
+  <button id="registrar">Registrar</button>
+  <ul id="listaNombres"></ul> <!-- Aquí agregamos el elemento ul con el identificador listaNombres -->
+  
   <script src="script.js"></script>
 </body>
 </html>
