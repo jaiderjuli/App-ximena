@@ -1,11 +1,11 @@
 const buttonSi = document.getElementById('yes');
     const buttonNo = document.getElementById('no');
-    let nombresSi = [];
+    const inputNombre = document.getElementById('nombre');
+    const buttonRegistrar = document.getElementById('registrar');
 
     const Lo_sabía = () => {
-      const nombre = prompt("Por favor, ingresa tu nombre:");
+      const nombre = inputNombre.value.trim();
       if (nombre) {
-        nombresSi.push(nombre);
         alert(`Hola, ${nombre}! NOS ALEGRA QUE NOS PUEDAS ACOMPAÑAR😊 (ya sabe que está comprometido con Dios🫵)`);
         alert('🤩a las 6:00pm te esperamos😎 App de Ximena');
       } else {
